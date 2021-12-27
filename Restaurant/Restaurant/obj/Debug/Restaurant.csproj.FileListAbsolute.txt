@@ -13,3 +13,18 @@ E:\A3\Programmation concurrente\Proj\Restaurant\Restaurant\obj\Debug\Restaurant.
 E:\A3\Programmation concurrente\Proj\Restaurant\Restaurant\obj\Debug\Restaurant.csproj.CoreCompileInputs.cache
 E:\A3\Programmation concurrente\Proj\Restaurant\Restaurant\obj\Debug\Restaurant.exe
 E:\A3\Programmation concurrente\Proj\Restaurant\Restaurant\obj\Debug\Restaurant.pdb
+C:\Users\Heidy\Source\Repos\projet-system\Restaurant\Restaurant\bin\Debug\Restaurant.exe.config
+C:\Users\Heidy\Source\Repos\projet-system\Restaurant\Restaurant\bin\Debug\Restaurant.exe
+C:\Users\Heidy\Source\Repos\projet-system\Restaurant\Restaurant\bin\Debug\Restaurant.pdb
+C:\Users\Heidy\Source\Repos\projet-system\Restaurant\Restaurant\obj\Debug\Restaurant.csproj.AssemblyReference.cache
+C:\Users\Heidy\Source\Repos\projet-system\Restaurant\Restaurant\obj\Debug\MainWindow.g.cs
+C:\Users\Heidy\Source\Repos\projet-system\Restaurant\Restaurant\obj\Debug\App.g.cs
+C:\Users\Heidy\Source\Repos\projet-system\Restaurant\Restaurant\obj\Debug\Restaurant_MarkupCompile.cache
+C:\Users\Heidy\Source\Repos\projet-system\Restaurant\Restaurant\obj\Debug\Restaurant_MarkupCompile.lref
+C:\Users\Heidy\Source\Repos\projet-system\Restaurant\Restaurant\obj\Debug\MainWindow.baml
+C:\Users\Heidy\Source\Repos\projet-system\Restaurant\Restaurant\obj\Debug\Restaurant.g.resources
+C:\Users\Heidy\Source\Repos\projet-system\Restaurant\Restaurant\obj\Debug\Restaurant.Properties.Resources.resources
+C:\Users\Heidy\Source\Repos\projet-system\Restaurant\Restaurant\obj\Debug\Restaurant.csproj.GenerateResource.cache
+C:\Users\Heidy\Source\Repos\projet-system\Restaurant\Restaurant\obj\Debug\Restaurant.csproj.CoreCompileInputs.cache
+C:\Users\Heidy\Source\Repos\projet-system\Restaurant\Restaurant\obj\Debug\Restaurant.exe
+C:\Users\Heidy\Source\Repos\projet-system\Restaurant\Restaurant\obj\Debug\Restaurant.pdb
