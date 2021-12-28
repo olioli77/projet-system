@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Heidy\\Source\\Repos\\projet-system\\RestaurantG5\\RestaurantG5.csproj": {}
+    "C:\\Users\\Heidy\\source\\repos\\projet-system\\RestaurantG5\\RestaurantG5.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Heidy\\Source\\Repos\\projet-system\\RestaurantG5\\RestaurantG5.csproj": {
+    "C:\\Users\\Heidy\\source\\repos\\projet-system\\RestaurantG5\\RestaurantG5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Heidy\\Source\\Repos\\projet-system\\RestaurantG5\\RestaurantG5.csproj",
+        "projectUniqueName": "C:\\Users\\Heidy\\source\\repos\\projet-system\\RestaurantG5\\RestaurantG5.csproj",
         "projectName": "RestaurantG5",
-        "projectPath": "C:\\Users\\Heidy\\Source\\Repos\\projet-system\\RestaurantG5\\RestaurantG5.csproj",
+        "projectPath": "C:\\Users\\Heidy\\source\\repos\\projet-system\\RestaurantG5\\RestaurantG5.csproj",
         "packagesPath": "C:\\Users\\Heidy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Heidy\\Source\\Repos\\projet-system\\RestaurantG5\\obj\\",
+        "outputPath": "C:\\Users\\Heidy\\source\\repos\\projet-system\\RestaurantG5\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Heidy\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,6 +43,10 @@
             "EntityFramework": {
               "target": "Package",
               "version": "[6.4.4, )"
+            },
+            "Microsoft.Extensions.Configuration.UserSecrets": {
+              "target": "Package",
+              "version": "[3.1.13, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",

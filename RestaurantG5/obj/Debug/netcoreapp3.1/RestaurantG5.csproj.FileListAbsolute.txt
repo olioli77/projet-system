@@ -43,3 +43,14 @@ C:\Users\Heidy\source\repos\projet-system\RestaurantG5\bin\Debug\netcoreapp3.1\r
 C:\Users\Heidy\source\repos\projet-system\RestaurantG5\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Heidy\source\repos\projet-system\RestaurantG5\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Users\Heidy\source\repos\projet-system\RestaurantG5\obj\Debug\netcoreapp3.1\RestaurantG5.csproj.CopyComplete
+C:\Users\Heidy\Source\Repos\projet-system\RestaurantG5\obj\Debug\netcoreapp3.1\RestaurantG5.Properties.Resources.resources
+C:\Users\Heidy\Source\Repos\projet-system\RestaurantG5\obj\Debug\netcoreapp3.1\RestaurantG5.csproj.GenerateResource.cache
+C:\Users\Heidy\source\repos\projet-system\RestaurantG5\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Heidy\source\repos\projet-system\RestaurantG5\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Heidy\source\repos\projet-system\RestaurantG5\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Heidy\source\repos\projet-system\RestaurantG5\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Heidy\source\repos\projet-system\RestaurantG5\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\Heidy\source\repos\projet-system\RestaurantG5\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Heidy\source\repos\projet-system\RestaurantG5\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Heidy\source\repos\projet-system\RestaurantG5\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Heidy\source\repos\projet-system\RestaurantG5\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
