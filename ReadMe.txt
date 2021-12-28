@@ -15,6 +15,11 @@ Renommer tout les diagramme en mettant groupe 5 à la fin
 			_Diagramme de séquence ☻
 
 - Détail et explication des Design Pattern utilisés
+			_DP MVC
+			_DP Singleton
+			_DP Abstract Factory
+			_DP Observer
+			_
 
 -MCD de la BDD et son script SQL
 
