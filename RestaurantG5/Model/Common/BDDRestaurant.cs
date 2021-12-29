@@ -5,7 +5,7 @@ namespace RestaurantG5.Model.Common
 {
     public partial class BDDRestaurant : DbContext
     {
-        public BDDRestaurant() : base("name=BDDRestaurant")
+        public BDDRestaurant() : base("BDDRestaurant")
         {
 
         }

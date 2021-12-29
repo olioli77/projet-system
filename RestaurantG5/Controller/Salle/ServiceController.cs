@@ -13,7 +13,9 @@ namespace RestaurantG5.Controller
         public Vector2 Position;
         private Vector2 Spawn;
         private Vector2 Clients;
+#pragma warning disable CS0414 // Le champ 'ServiceController.lastGroup' est assigné, mais sa valeur n'est jamais utilisée
         private Group lastGroup = null;
+#pragma warning restore CS0414 // Le champ 'ServiceController.lastGroup' est assigné, mais sa valeur n'est jamais utilisée
         public Texture2D Texture;
         public bool isMooving = false;
         public bool isCleaning = false;

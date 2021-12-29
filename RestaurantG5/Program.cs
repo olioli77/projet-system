@@ -6,7 +6,7 @@ namespace RestaurantG5
     public static class Program
     {
         [STAThread]
-        static void Main(string[] args)
+        static void Main()
         {
             RestaurantLauncher restaurant = new RestaurantLauncher();
             using (var game = restaurant.Game)

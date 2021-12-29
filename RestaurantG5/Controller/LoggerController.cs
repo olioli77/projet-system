@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace RestaurantG5.Controller
 {
-    class LoggerController
+    public class LoggerController
     {
         /// <summary>
         /// Append a Line to a specific text file.

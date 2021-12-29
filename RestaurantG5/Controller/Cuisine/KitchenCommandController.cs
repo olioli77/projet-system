@@ -1,5 +1,7 @@
 ﻿using Newtonsoft.Json;
+using RestaurantG5.Controller.Cuisine;
 using RestaurantG5.Model.Common;
+using RestaurantG5.Model.Salle.Role;
 using System;
 using System.Collections.Generic;
 using System.Net;
@@ -55,13 +57,17 @@ namespace RestaurantG5.Controller
                     command.Start(listener);
                 }
             }
+#pragma warning disable CS0168 // La variable 'e' est déclarée, mais jamais utilisée
             catch (Exception e)
+#pragma warning restore CS0168 // La variable 'e' est déclarée, mais jamais utilisée
             {
                 //TODO LOG
             }
         }
 
+#pragma warning disable CS1998 // Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.
         private async void KitchenChiefTreatment(Object socket)
+#pragma warning restore CS1998 // Cette méthode async n'a pas d'opérateur 'await' et elle s'exécutera de façon synchrone. Utilisez l'opérateur 'await' pour attendre les appels d'API non bloquants ou 'await Task.Run(…)' pour effectuer un travail utilisant le processeur sur un thread d'arrière-plan.
         {
             Socket listener = ((Socket)socket).Accept();
             byte[] bytes = new Byte[2048];
@@ -71,7 +77,8 @@ namespace RestaurantG5.Controller
             //await LoggerController.AppendLineToFile(Parameters.LOG_PATH, "Command received : " + command.ID);
 
             //TODO COOKING TREATMENT HERE
-            /*if (command.State == GroupState.WaitEntree)
+            //comment
+            if (command.State == GroupState.WaitEntree)
             {
                 foreach (Client client in command.Clients)
                 {
@@ -109,7 +116,7 @@ namespace RestaurantG5.Controller
                     }
                 }
             }
-            */
+            //herte
             SpinWait.SpinUntil(() => Param.SPEED != 0);
             Thread.Sleep(10000 / Param.SPEED);
             listener.Send(SerializeGroup(command));

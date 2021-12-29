@@ -54,7 +54,9 @@ namespace RestaurantG5.Controller.Cuisine
                 Etape actualStep = BDDController.Instance.DB.Etape.SingleOrDefault(e => e.id_etape == actualCompose.id_etape);
                 Console.WriteLine(actualCompose.id_Ingredient);
                 Ustensile ustensile = BDDController.Instance.DB.Ustensile.SingleOrDefault(e => e.id_Ustensile == actualStep.id_Ustensile);
+#pragma warning disable CS4014 // Dans la mesure où cet appel n'est pas attendu, l'exécution de la méthode actuelle continue avant la fin de l'appel. Envisagez d'appliquer l'opérateur 'await' au résultat de l'appel.
                 LoggerController.AppendLineToFile(Param.LOG_PATH, actualCompose.id_etape.ToString());
+#pragma warning restore CS4014 // Dans la mesure où cet appel n'est pas attendu, l'exécution de la méthode actuelle continue avant la fin de l'appel. Envisagez d'appliquer l'opérateur 'await' au résultat de l'appel.
 
                 //Foreach steps in the receipe we create a new thread.
                 Thread t = new Thread(delegate ()

@@ -1,0 +1,10 @@
+[29/12/2021 11:26:02]Kitchen commands server started
+[29/12/2021 11:26:02]Salle commands client started
+[29/12/2021 11:37:07]Kitchen commands server started
+[29/12/2021 11:37:07]Salle commands client started
+[29/12/2021 13:30:27]Kitchen commands server started
+[29/12/2021 13:30:28]Salle commands client started
+[29/12/2021 13:31:34]Kitchen commands server started
+[29/12/2021 13:31:34]Salle commands client started
+[29/12/2021 13:48:23]Kitchen commands server started
+[29/12/2021 13:48:23]Salle commands client started

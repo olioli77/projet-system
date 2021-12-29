@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace RestaurantG5.Controller
 {
-    class TableController
+    public class TableController
     {
         public Table OptimizedFindTable(List<Table> tables, int groupSize)
         {

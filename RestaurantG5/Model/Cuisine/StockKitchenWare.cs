@@ -3,7 +3,7 @@ using System.Threading;
 
 namespace RestaurantG5.Model.Cuisine
 {
-    class StockKitchenWare
+    public class StockKitchenWare
     {
         private Dictionary<string, Semaphore> stock;
 

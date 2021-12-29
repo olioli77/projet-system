@@ -2,7 +2,7 @@
 
 namespace RestaurantG5.Controller
 {
-    class ParamController
+    public class ParamController
     {
         public static string GetValueOrDefault(string key, string defaultValue, bool numericalValue = false)
         {

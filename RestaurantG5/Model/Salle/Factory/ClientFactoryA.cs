@@ -2,7 +2,7 @@
 
 namespace RestaurantG5.Model.Salle.Factory
 {
-    class ClientFactoryA : AbstractClientFactory
+    public class ClientFactoryA : AbstractClientFactory
     {
         private static ClientFactoryA instance;
 
@@ -12,7 +12,7 @@ namespace RestaurantG5.Model.Salle.Factory
             {
                 if (instance == null)
                     instance = new ClientFactoryA();
-                return Instance;
+                return instance;
 
             }
         }

@@ -5,7 +5,7 @@ using System.IO;
 
 namespace RestaurantG5.Model.Common
 {
-    class Param
+    public static class Param
     {
         public const int TABLES_BY_SQUARE = 6;
         public const int WAITER_BY_SQUARE = 1;

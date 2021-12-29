@@ -2,7 +2,7 @@
 
 namespace RestaurantG5.Model.Common
 {
-    class Map
+    public class Map
     {
         private static Map instance;
         private List<Recette> recettes;

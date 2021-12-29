@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
+using System;
 
 namespace RestaurantG5.Controller
 {
-    class MapController
+    public class MapController
     {
         public static Semaphore MapSemaphore = new Semaphore(initialCount: Param.MAP_NUMBER, maximumCount: Param.MAP_NUMBER);
 

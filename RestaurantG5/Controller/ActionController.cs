@@ -5,7 +5,7 @@ using RestaurantG5.Model.Common;
 
 namespace RestaurantG5.Controller
 {
-    class ActionController
+    public class ActionController
     {
         private Vector2 PositionX1;
         private Vector2 PositionX16;

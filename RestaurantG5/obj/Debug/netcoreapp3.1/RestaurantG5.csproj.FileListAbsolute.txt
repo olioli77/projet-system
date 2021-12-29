@@ -28,14 +28,6 @@ C:\Users\Heidy\source\repos\projet-system\RestaurantG5\bin\Debug\netcoreapp3.1\r
 C:\Users\Heidy\source\repos\projet-system\RestaurantG5\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
 C:\Users\Heidy\source\repos\projet-system\RestaurantG5\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
 C:\Users\Heidy\source\repos\projet-system\RestaurantG5\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
-C:\Users\Heidy\source\repos\projet-system\RestaurantG5\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libSDL2-2.0.so.0
-C:\Users\Heidy\source\repos\projet-system\RestaurantG5\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libopenal.so.1
-C:\Users\Heidy\source\repos\projet-system\RestaurantG5\bin\Debug\netcoreapp3.1\runtimes\osx\native\libSDL2-2.0.0.dylib
-C:\Users\Heidy\source\repos\projet-system\RestaurantG5\bin\Debug\netcoreapp3.1\runtimes\osx\native\libopenal.1.dylib
-C:\Users\Heidy\source\repos\projet-system\RestaurantG5\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\SDL2.dll
-C:\Users\Heidy\source\repos\projet-system\RestaurantG5\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\soft_oal.dll
-C:\Users\Heidy\source\repos\projet-system\RestaurantG5\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\SDL2.dll
-C:\Users\Heidy\source\repos\projet-system\RestaurantG5\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\soft_oal.dll
 C:\Users\Heidy\source\repos\projet-system\RestaurantG5\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Heidy\source\repos\projet-system\RestaurantG5\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Heidy\source\repos\projet-system\RestaurantG5\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
@@ -54,3 +46,11 @@ C:\Users\Heidy\source\repos\projet-system\RestaurantG5\bin\Debug\netcoreapp3.1\M
 C:\Users\Heidy\source\repos\projet-system\RestaurantG5\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
 C:\Users\Heidy\source\repos\projet-system\RestaurantG5\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
 C:\Users\Heidy\source\repos\projet-system\RestaurantG5\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Heidy\source\repos\projet-system\RestaurantG5\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libSDL2-2.0.so.0
+C:\Users\Heidy\source\repos\projet-system\RestaurantG5\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libopenal.so.1
+C:\Users\Heidy\source\repos\projet-system\RestaurantG5\bin\Debug\netcoreapp3.1\runtimes\osx\native\libSDL2-2.0.0.dylib
+C:\Users\Heidy\source\repos\projet-system\RestaurantG5\bin\Debug\netcoreapp3.1\runtimes\osx\native\libopenal.1.dylib
+C:\Users\Heidy\source\repos\projet-system\RestaurantG5\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\SDL2.dll
+C:\Users\Heidy\source\repos\projet-system\RestaurantG5\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\soft_oal.dll
+C:\Users\Heidy\source\repos\projet-system\RestaurantG5\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\SDL2.dll
+C:\Users\Heidy\source\repos\projet-system\RestaurantG5\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\soft_oal.dll

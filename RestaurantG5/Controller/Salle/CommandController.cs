@@ -35,7 +35,7 @@ namespace RestaurantG5.Controller
 
         public HotelMaster HotelMaster { get => hotelMaster; set => hotelMaster = value; }
 
-        private CommandController() { }
+        public CommandController() { }
 
         public async Task InitClientSocketAsync()
         {

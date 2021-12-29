@@ -11,7 +11,7 @@ using System.Threading;
 
 namespace RestaurantG5.View
 {
-    class Game1 : Game
+    public class Game1 : Game
     {
         int tile = 32;
         private SpriteFont timer, fontInfo;
@@ -35,7 +35,9 @@ namespace RestaurantG5.View
         public Vector2 posch1;
         public Vector2 posch2;
 
+#pragma warning disable CS0414 // Le champ 'Game1.i' est assigné, mais sa valeur n'est jamais utilisée
         int i = 0;
+#pragma warning restore CS0414 // Le champ 'Game1.i' est assigné, mais sa valeur n'est jamais utilisée
 
 
         ActionController actionButtons;
@@ -96,7 +98,7 @@ namespace RestaurantG5.View
     */
 
 
-            TextPerso.Add(Content.Load<Texture2D>("cuisto"));
+            TextPerso.Add(Content.Load<Texture2D>("chief"));
             TextPerso.Add(Content.Load<Texture2D>("commis"));
             TextPerso.Add(Content.Load<Texture2D>("serveur"));
             TextPerso.Add(Content.Load<Texture2D>("client1"));
@@ -120,7 +122,7 @@ namespace RestaurantG5.View
 
 
             spriteBatch = new SpriteBatch(GraphicsDevice);
-            bgTexture = Content.Load<Texture2D>("restoV2");
+            bgTexture = Content.Load<Texture2D>("font");
             bg2Texture = Content.Load<Texture2D>("blanc");
 
 
@@ -329,29 +331,43 @@ namespace RestaurantG5.View
                 case 3:
                     return TextPerso[4];
 
+#pragma warning disable CS0162 // Code inaccessible détecté
                     break;
+#pragma warning restore CS0162 // Code inaccessible détecté
                 case 4:
                     return TextPerso[5];
 
+#pragma warning disable CS0162 // Code inaccessible détecté
                     break;
+#pragma warning restore CS0162 // Code inaccessible détecté
                 case 5:
 
                     return TextPerso[9];
+#pragma warning disable CS0162 // Code inaccessible détecté
                     break;
+#pragma warning restore CS0162 // Code inaccessible détecté
                 case 6:
 
                     return TextPerso[4];
+#pragma warning disable CS0162 // Code inaccessible détecté
                     break;
+#pragma warning restore CS0162 // Code inaccessible détecté
                 case 7:
 
                     return TextPerso[10];
+#pragma warning disable CS0162 // Code inaccessible détecté
                     break;
+#pragma warning restore CS0162 // Code inaccessible détecté
                 case 8:
                     return TextPerso[11];
+#pragma warning disable CS0162 // Code inaccessible détecté
                     break;
+#pragma warning restore CS0162 // Code inaccessible détecté
                 case 9:
                     return TextPerso[6];
+#pragma warning disable CS0162 // Code inaccessible détecté
                     break;
+#pragma warning restore CS0162 // Code inaccessible détecté
             }
             return TextPerso[6];
         }
