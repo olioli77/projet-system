@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>RestaurantG5</id>
+    <version>1.0.0</version>
+    <authors>Groupe5</authors>
+    <description>Package Description</description>
+    <copyright>2021</copyright>
+    <dependencies>
+      <group targetFramework="net5.0">
+        <dependency id="EntityFramework" version="6.4.4" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.SqlServer" version="5.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.UserSecrets" version="3.1.13" exclude="Build,Analyzers" />
+        <dependency id="MonoGame.Content.Builder.Task" version="3.8.0.1641" exclude="Build,Analyzers" />
+        <dependency id="MonoGame.Framework.DesktopGL" version="3.8.0.1641" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="13.0.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <contentFiles>
+      <files include="any/net5.0/Content/bin/DesktopGL/Content/blanc.xnb" buildAction="Content" />
+      <files include="any/net5.0/Content/bin/DesktopGL/Content/chief.xnb" buildAction="Content" />
+      <files include="any/net5.0/Content/bin/DesktopGL/Content/client1.xnb" buildAction="Content" />
+      <files include="any/net5.0/Content/bin/DesktopGL/Content/client2.xnb" buildAction="Content" />
+      <files include="any/net5.0/Content/bin/DesktopGL/Content/client3.xnb" buildAction="Content" />
+      <files include="any/net5.0/Content/bin/DesktopGL/Content/client4.xnb" buildAction="Content" />
+      <files include="any/net5.0/Content/bin/DesktopGL/Content/commis.xnb" buildAction="Content" />
+      <files include="any/net5.0/Content/bin/DesktopGL/Content/font.xnb" buildAction="Content" />
+      <files include="any/net5.0/Content/bin/DesktopGL/Content/groupe3.xnb" buildAction="Content" />
+      <files include="any/net5.0/Content/bin/DesktopGL/Content/groupe4.xnb" buildAction="Content" />
+      <files include="any/net5.0/Content/bin/DesktopGL/Content/groupe7.xnb" buildAction="Content" />
+      <files include="any/net5.0/Content/bin/DesktopGL/Content/groupe9.xnb" buildAction="Content" />
+      <files include="any/net5.0/Content/bin/DesktopGL/Content/infos.xnb" buildAction="Content" />
+      <files include="any/net5.0/Content/bin/DesktopGL/Content/pause.xnb" buildAction="Content" />
+      <files include="any/net5.0/Content/bin/DesktopGL/Content/perso5.xnb" buildAction="Content" />
+      <files include="any/net5.0/Content/bin/DesktopGL/Content/perso6.xnb" buildAction="Content" />
+      <files include="any/net5.0/Content/bin/DesktopGL/Content/perso8.xnb" buildAction="Content" />
+      <files include="any/net5.0/Content/bin/DesktopGL/Content/playX1.xnb" buildAction="Content" />
+      <files include="any/net5.0/Content/bin/DesktopGL/Content/playX16.xnb" buildAction="Content" />
+      <files include="any/net5.0/Content/bin/DesktopGL/Content/restoV2.xnb" buildAction="Content" />
+      <files include="any/net5.0/Content/bin/DesktopGL/Content/serveur.xnb" buildAction="Content" />
+      <files include="any/net5.0/Content/bin/DesktopGL/Content/Timer.xnb" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\Heidy\source\repos\projet-system\RestaurantG5\bin\Debug\net5.0\RestaurantG5.runtimeconfig.json" target="lib\net5.0\RestaurantG5.runtimeconfig.json" />
+    <file src="C:\Users\Heidy\source\repos\projet-system\RestaurantG5\bin\Debug\net5.0\RestaurantG5.dll" target="lib\net5.0\RestaurantG5.dll" />
+    <file src="C:\Users\Heidy\source\repos\projet-system\RestaurantG5\bin\Debug\net5.0\RestaurantG5.xml" target="lib\net5.0\RestaurantG5.xml" />
+    <file src="C:\Users\Heidy\source\repos\projet-system\RestaurantG5\Content\bin\DesktopGL\Content\blanc.xnb" target="content\Content\bin\DesktopGL\Content\blanc.xnb" />
+    <file src="C:\Users\Heidy\source\repos\projet-system\RestaurantG5\Content\bin\DesktopGL\Content\blanc.xnb" target="contentFiles\any\net5.0\Content\bin\DesktopGL\Content\blanc.xnb" />
+    <file src="C:\Users\Heidy\source\repos\projet-system\RestaurantG5\Content\bin\DesktopGL\Content\chief.xnb" target="content\Content\bin\DesktopGL\Content\chief.xnb" />
+    <file src="C:\Users\Heidy\source\repos\projet-system\RestaurantG5\Content\bin\DesktopGL\Content\chief.xnb" target="contentFiles\any\net5.0\Content\bin\DesktopGL\Content\chief.xnb" />
+    <file src="C:\Users\Heidy\source\repos\projet-system\RestaurantG5\Content\bin\DesktopGL\Content\client1.xnb" target="content\Content\bin\DesktopGL\Content\client1.xnb" />
+    <file src="C:\Users\Heidy\source\repos\projet-system\RestaurantG5\Content\bin\DesktopGL\Content\client1.xnb" target="contentFiles\any\net5.0\Content\bin\DesktopGL\Content\client1.xnb" />
+    <file src="C:\Users\Heidy\source\repos\projet-system\RestaurantG5\Content\bin\DesktopGL\Content\client2.xnb" target="content\Content\bin\DesktopGL\Content\client2.xnb" />
+    <file src="C:\Users\Heidy\source\repos\projet-system\RestaurantG5\Content\bin\DesktopGL\Content\client2.xnb" target="contentFiles\any\net5.0\Content\bin\DesktopGL\Content\client2.xnb" />
+    <file src="C:\Users\Heidy\source\repos\projet-system\RestaurantG5\Content\bin\DesktopGL\Content\client3.xnb" target="content\Content\bin\DesktopGL\Content\client3.xnb" />
+    <file src="C:\Users\Heidy\source\repos\projet-system\RestaurantG5\Content\bin\DesktopGL\Content\client3.xnb" target="contentFiles\any\net5.0\Content\bin\DesktopGL\Content\client3.xnb" />
+    <file src="C:\Users\Heidy\source\repos\projet-system\RestaurantG5\Content\bin\DesktopGL\Content\client4.xnb" target="content\Content\bin\DesktopGL\Content\client4.xnb" />
+    <file src="C:\Users\Heidy\source\repos\projet-system\RestaurantG5\Content\bin\DesktopGL\Content\client4.xnb" target="contentFiles\any\net5.0\Content\bin\DesktopGL\Content\client4.xnb" />
+    <file src="C:\Users\Heidy\source\repos\projet-system\RestaurantG5\Content\bin\DesktopGL\Content\commis.xnb" target="content\Content\bin\DesktopGL\Content\commis.xnb" />
+    <file src="C:\Users\Heidy\source\repos\projet-system\RestaurantG5\Content\bin\DesktopGL\Content\commis.xnb" target="contentFiles\any\net5.0\Content\bin\DesktopGL\Content\commis.xnb" />
+    <file src="C:\Users\Heidy\source\repos\projet-system\RestaurantG5\Content\bin\DesktopGL\Content\font.xnb" target="content\Content\bin\DesktopGL\Content\font.xnb" />
+    <file src="C:\Users\Heidy\source\repos\projet-system\RestaurantG5\Content\bin\DesktopGL\Content\font.xnb" target="contentFiles\any\net5.0\Content\bin\DesktopGL\Content\font.xnb" />
+    <file src="C:\Users\Heidy\source\repos\projet-system\RestaurantG5\Content\bin\DesktopGL\Content\groupe3.xnb" target="content\Content\bin\DesktopGL\Content\groupe3.xnb" />
+    <file src="C:\Users\Heidy\source\repos\projet-system\RestaurantG5\Content\bin\DesktopGL\Content\groupe3.xnb" target="contentFiles\any\net5.0\Content\bin\DesktopGL\Content\groupe3.xnb" />
+    <file src="C:\Users\Heidy\source\repos\projet-system\RestaurantG5\Content\bin\DesktopGL\Content\groupe4.xnb" target="content\Content\bin\DesktopGL\Content\groupe4.xnb" />
+    <file src="C:\Users\Heidy\source\repos\projet-system\RestaurantG5\Content\bin\DesktopGL\Content\groupe4.xnb" target="contentFiles\any\net5.0\Content\bin\DesktopGL\Content\groupe4.xnb" />
+    <file src="C:\Users\Heidy\source\repos\projet-system\RestaurantG5\Content\bin\DesktopGL\Content\groupe7.xnb" target="content\Content\bin\DesktopGL\Content\groupe7.xnb" />
+    <file src="C:\Users\Heidy\source\repos\projet-system\RestaurantG5\Content\bin\DesktopGL\Content\groupe7.xnb" target="contentFiles\any\net5.0\Content\bin\DesktopGL\Content\groupe7.xnb" />
+    <file src="C:\Users\Heidy\source\repos\projet-system\RestaurantG5\Content\bin\DesktopGL\Content\groupe9.xnb" target="content\Content\bin\DesktopGL\Content\groupe9.xnb" />
+    <file src="C:\Users\Heidy\source\repos\projet-system\RestaurantG5\Content\bin\DesktopGL\Content\groupe9.xnb" target="contentFiles\any\net5.0\Content\bin\DesktopGL\Content\groupe9.xnb" />
+    <file src="C:\Users\Heidy\source\repos\projet-system\RestaurantG5\Content\bin\DesktopGL\Content\infos.xnb" target="content\Content\bin\DesktopGL\Content\infos.xnb" />
+    <file src="C:\Users\Heidy\source\repos\projet-system\RestaurantG5\Content\bin\DesktopGL\Content\infos.xnb" target="contentFiles\any\net5.0\Content\bin\DesktopGL\Content\infos.xnb" />
+    <file src="C:\Users\Heidy\source\repos\projet-system\RestaurantG5\Content\bin\DesktopGL\Content\pause.xnb" target="content\Content\bin\DesktopGL\Content\pause.xnb" />
+    <file src="C:\Users\Heidy\source\repos\projet-system\RestaurantG5\Content\bin\DesktopGL\Content\pause.xnb" target="contentFiles\any\net5.0\Content\bin\DesktopGL\Content\pause.xnb" />
+    <file src="C:\Users\Heidy\source\repos\projet-system\RestaurantG5\Content\bin\DesktopGL\Content\perso5.xnb" target="content\Content\bin\DesktopGL\Content\perso5.xnb" />
+    <file src="C:\Users\Heidy\source\repos\projet-system\RestaurantG5\Content\bin\DesktopGL\Content\perso5.xnb" target="contentFiles\any\net5.0\Content\bin\DesktopGL\Content\perso5.xnb" />
+    <file src="C:\Users\Heidy\source\repos\projet-system\RestaurantG5\Content\bin\DesktopGL\Content\perso6.xnb" target="content\Content\bin\DesktopGL\Content\perso6.xnb" />
+    <file src="C:\Users\Heidy\source\repos\projet-system\RestaurantG5\Content\bin\DesktopGL\Content\perso6.xnb" target="contentFiles\any\net5.0\Content\bin\DesktopGL\Content\perso6.xnb" />
+    <file src="C:\Users\Heidy\source\repos\projet-system\RestaurantG5\Content\bin\DesktopGL\Content\perso8.xnb" target="content\Content\bin\DesktopGL\Content\perso8.xnb" />
+    <file src="C:\Users\Heidy\source\repos\projet-system\RestaurantG5\Content\bin\DesktopGL\Content\perso8.xnb" target="contentFiles\any\net5.0\Content\bin\DesktopGL\Content\perso8.xnb" />
+    <file src="C:\Users\Heidy\source\repos\projet-system\RestaurantG5\Content\bin\DesktopGL\Content\playX1.xnb" target="content\Content\bin\DesktopGL\Content\playX1.xnb" />
+    <file src="C:\Users\Heidy\source\repos\projet-system\RestaurantG5\Content\bin\DesktopGL\Content\playX1.xnb" target="contentFiles\any\net5.0\Content\bin\DesktopGL\Content\playX1.xnb" />
+    <file src="C:\Users\Heidy\source\repos\projet-system\RestaurantG5\Content\bin\DesktopGL\Content\playX16.xnb" target="content\Content\bin\DesktopGL\Content\playX16.xnb" />
+    <file src="C:\Users\Heidy\source\repos\projet-system\RestaurantG5\Content\bin\DesktopGL\Content\playX16.xnb" target="contentFiles\any\net5.0\Content\bin\DesktopGL\Content\playX16.xnb" />
+    <file src="C:\Users\Heidy\source\repos\projet-system\RestaurantG5\Content\bin\DesktopGL\Content\restoV2.xnb" target="content\Content\bin\DesktopGL\Content\restoV2.xnb" />
+    <file src="C:\Users\Heidy\source\repos\projet-system\RestaurantG5\Content\bin\DesktopGL\Content\restoV2.xnb" target="contentFiles\any\net5.0\Content\bin\DesktopGL\Content\restoV2.xnb" />
+    <file src="C:\Users\Heidy\source\repos\projet-system\RestaurantG5\Content\bin\DesktopGL\Content\serveur.xnb" target="content\Content\bin\DesktopGL\Content\serveur.xnb" />
+    <file src="C:\Users\Heidy\source\repos\projet-system\RestaurantG5\Content\bin\DesktopGL\Content\serveur.xnb" target="contentFiles\any\net5.0\Content\bin\DesktopGL\Content\serveur.xnb" />
+    <file src="C:\Users\Heidy\source\repos\projet-system\RestaurantG5\Content\bin\DesktopGL\Content\Timer.xnb" target="content\Content\bin\DesktopGL\Content\Timer.xnb" />
+    <file src="C:\Users\Heidy\source\repos\projet-system\RestaurantG5\Content\bin\DesktopGL\Content\Timer.xnb" target="contentFiles\any\net5.0\Content\bin\DesktopGL\Content\Timer.xnb" />
+  </files>
+</package>

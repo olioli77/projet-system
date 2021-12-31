@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "RestaurantG5": {
+      "commandName": "Project",
+      "sqlDebugging": true
+    }
+  }
+}

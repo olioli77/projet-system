@@ -21,7 +21,7 @@ namespace RestaurantG5.Model.Salle.Factory
         public override Client CreateClient()
         {
             Client client = new Client();
-            client.Strategy.Add("state", 1);
+            client.Strategy.Add("state", 0);
             client.Strategy.Add("dessert", 0);
             return client;
 

@@ -42,9 +42,9 @@ namespace RestaurantG5.Controller
                 if (DB.Ingredient.Find(ingredient.id_Ingredient) != null)
                 {
                     var result = DB.Stock.SingleOrDefault(stock => stock.id_Ingredient == ingredient.id_Ingredient);
-                    if (result.quantité_Stock > 0)
+                    if (result.quantite_stock > 0)
                     {
-                        result.quantité_Stock--;
+                        result.quantite_stock--;
                     }
                     DB.SaveChanges();
                 }
@@ -56,7 +56,7 @@ namespace RestaurantG5.Controller
             var stockIngredient = DB.Stock.Single(stock => stock.id_Ingredient == ingredient.id_Ingredient);
             if (stockIngredient != null)
             {
-                stockIngredient.quantité_Stock = 50;
+                stockIngredient.quantite_stock = 50;
                 DB.SaveChanges();
             }
         }
@@ -66,7 +66,7 @@ namespace RestaurantG5.Controller
             var stockIngredient = DB.Stock.Single(stock => stock.id_Ingredient == ingredient.id_Ingredient);
             if (stockIngredient != null)
             {
-                stockIngredient.quantité_Stock += number;
+                stockIngredient.quantite_stock += number;
                 DB.SaveChanges();
             }
         }
@@ -83,7 +83,7 @@ namespace RestaurantG5.Controller
         {
             var stockStep = DB.Stock.SingleOrDefault<Stock>(ing => ing.id_Ingredient == id_ingredient);
             if (stockStep != null)
-                if (stockStep.quantité_Stock > 0)
+                if (stockStep.quantite_stock > 0)
                     return true;
             return false;
         }

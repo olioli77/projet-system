@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Heidy\\source\\repos\\projet-system\\TestRestaurantG5\\TestRestaurantG5.csproj": {}
+    "C:\\Users\\Heidy\\Documents\\GitHub\\projet-system\\Livrables Finaux\\TestRestaurantG5\\TestRestaurantG5.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Heidy\\source\\repos\\projet-system\\RestaurantG5\\RestaurantG5.csproj": {
+    "C:\\Users\\Heidy\\Documents\\GitHub\\projet-system\\Livrables Finaux\\RestaurantG5\\RestaurantG5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Heidy\\source\\repos\\projet-system\\RestaurantG5\\RestaurantG5.csproj",
+        "projectUniqueName": "C:\\Users\\Heidy\\Documents\\GitHub\\projet-system\\Livrables Finaux\\RestaurantG5\\RestaurantG5.csproj",
         "projectName": "RestaurantG5",
-        "projectPath": "C:\\Users\\Heidy\\source\\repos\\projet-system\\RestaurantG5\\RestaurantG5.csproj",
+        "projectPath": "C:\\Users\\Heidy\\Documents\\GitHub\\projet-system\\Livrables Finaux\\RestaurantG5\\RestaurantG5.csproj",
         "packagesPath": "C:\\Users\\Heidy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Heidy\\source\\repos\\projet-system\\RestaurantG5\\obj\\",
+        "outputPath": "C:\\Users\\Heidy\\Documents\\GitHub\\projet-system\\Livrables Finaux\\RestaurantG5\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Heidy\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,9 +44,13 @@
               "target": "Package",
               "version": "[6.4.4, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.13, )"
             },
             "Microsoft.Extensions.Configuration.UserSecrets": {
               "target": "Package",
@@ -84,14 +88,14 @@
         }
       }
     },
-    "C:\\Users\\Heidy\\source\\repos\\projet-system\\TestRestaurantG5\\TestRestaurantG5.csproj": {
+    "C:\\Users\\Heidy\\Documents\\GitHub\\projet-system\\Livrables Finaux\\TestRestaurantG5\\TestRestaurantG5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Heidy\\source\\repos\\projet-system\\TestRestaurantG5\\TestRestaurantG5.csproj",
+        "projectUniqueName": "C:\\Users\\Heidy\\Documents\\GitHub\\projet-system\\Livrables Finaux\\TestRestaurantG5\\TestRestaurantG5.csproj",
         "projectName": "TestRestaurantG5",
-        "projectPath": "C:\\Users\\Heidy\\source\\repos\\projet-system\\TestRestaurantG5\\TestRestaurantG5.csproj",
+        "projectPath": "C:\\Users\\Heidy\\Documents\\GitHub\\projet-system\\Livrables Finaux\\TestRestaurantG5\\TestRestaurantG5.csproj",
         "packagesPath": "C:\\Users\\Heidy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Heidy\\source\\repos\\projet-system\\TestRestaurantG5\\obj\\",
+        "outputPath": "C:\\Users\\Heidy\\Documents\\GitHub\\projet-system\\Livrables Finaux\\TestRestaurantG5\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Heidy\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -108,8 +112,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Heidy\\source\\repos\\projet-system\\RestaurantG5\\RestaurantG5.csproj": {
-                "projectPath": "C:\\Users\\Heidy\\source\\repos\\projet-system\\RestaurantG5\\RestaurantG5.csproj"
+              "C:\\Users\\Heidy\\Documents\\GitHub\\projet-system\\Livrables Finaux\\RestaurantG5\\RestaurantG5.csproj": {
+                "projectPath": "C:\\Users\\Heidy\\Documents\\GitHub\\projet-system\\Livrables Finaux\\RestaurantG5\\RestaurantG5.csproj"
               }
             }
           }
@@ -134,7 +138,7 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.13, )"
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",

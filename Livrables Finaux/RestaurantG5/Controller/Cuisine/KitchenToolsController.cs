@@ -1,4 +1,8 @@
 ﻿using RestaurantG5.Model.Cuisine;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using RestaurantG5.Model.Salle.Components;
 
 namespace RestaurantG5.Controller.Cuisine
 {
@@ -6,8 +10,8 @@ namespace RestaurantG5.Controller.Cuisine
     {
         public void senddirtytools(string kitchenware, int quantity)
         {
-            //    stockkitchenware.instance.dirty[kitchenware] += quantity;
-            //    stockkitchenware.instance.clean[kitchenware] -= quantity;
+               StockEquipement.Instance.Dirty[kitchenware] += quantity;
+            StockEquipement.Instance.Clean[kitchenware] -= quantity;
         }
 
         public void SetInUseTool(string kitchenware)
@@ -17,14 +21,14 @@ namespace RestaurantG5.Controller.Cuisine
 
         public void ReceiveCleanTools(string kitchenware, int quantity)
         {
-            //StockKitchenware.Instance.Dirty[kitchenware] -= quantity;
-            //StockKitchenware.Instance.Clean[kitchenware] += quantity;
+            StockEquipement.Instance.Dirty[kitchenware] -= quantity;
+            StockEquipement.Instance.Clean[kitchenware] += quantity;
         }
 
-        //public bool VerifyStock(string kitchenware, int quantity)
-        //{
-        //    int stockQuantity = StockKitchenware.Instance.Clean[kitchenware];
-        //    return (stockQuantity >= quantity && quantity > 0) ? true : false;
-        //}
+        public bool VerifyStock(string kitchenware, int quantity)
+        {
+            int stockQuantity = StockEquipement.Instance.Clean[kitchenware];
+            return (stockQuantity >= quantity && quantity > 0) ? true : false;
+        }
     }
 }

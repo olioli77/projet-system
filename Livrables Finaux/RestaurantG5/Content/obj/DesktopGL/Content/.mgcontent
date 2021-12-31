@@ -4,28 +4,28 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/Heidy/source/repos/projet-system/RestaurantG5/Content/blanc.png</File>
-    <File>C:/Users/Heidy/source/repos/projet-system/RestaurantG5/Content/chief.png</File>
-    <File>C:/Users/Heidy/source/repos/projet-system/RestaurantG5/Content/client1.png</File>
-    <File>C:/Users/Heidy/source/repos/projet-system/RestaurantG5/Content/client2.png</File>
-    <File>C:/Users/Heidy/source/repos/projet-system/RestaurantG5/Content/client3.png</File>
-    <File>C:/Users/Heidy/source/repos/projet-system/RestaurantG5/Content/client4.png</File>
-    <File>C:/Users/Heidy/source/repos/projet-system/RestaurantG5/Content/commis.png</File>
-    <File>C:/Users/Heidy/source/repos/projet-system/RestaurantG5/Content/font.png</File>
-    <File>C:/Users/Heidy/source/repos/projet-system/RestaurantG5/Content/groupe3.png</File>
-    <File>C:/Users/Heidy/source/repos/projet-system/RestaurantG5/Content/groupe4.png</File>
-    <File>C:/Users/Heidy/source/repos/projet-system/RestaurantG5/Content/groupe7.png</File>
-    <File>C:/Users/Heidy/source/repos/projet-system/RestaurantG5/Content/groupe9.png</File>
-    <File>C:/Users/Heidy/source/repos/projet-system/RestaurantG5/Content/restoV2.png</File>
-    <File>C:/Users/Heidy/source/repos/projet-system/RestaurantG5/Content/serveur.png</File>
-    <File>C:/Users/Heidy/source/repos/projet-system/RestaurantG5/Content/Timer.spritefont</File>
-    <File>C:/Users/Heidy/source/repos/projet-system/RestaurantG5/Content/infos.spritefont</File>
-    <File>C:/Users/Heidy/source/repos/projet-system/RestaurantG5/Content/pause.png</File>
-    <File>C:/Users/Heidy/source/repos/projet-system/RestaurantG5/Content/playX1.png</File>
-    <File>C:/Users/Heidy/source/repos/projet-system/RestaurantG5/Content/playX16.png</File>
-    <File>C:/Users/Heidy/source/repos/projet-system/RestaurantG5/Content/perso5.png</File>
-    <File>C:/Users/Heidy/source/repos/projet-system/RestaurantG5/Content/perso6.png</File>
-    <File>C:/Users/Heidy/source/repos/projet-system/RestaurantG5/Content/perso8.png</File>
+    <File>C:/Users/Heidy/Documents/GitHub/projet-system/Livrables Finaux/RestaurantG5/Content/blanc.png</File>
+    <File>C:/Users/Heidy/Documents/GitHub/projet-system/Livrables Finaux/RestaurantG5/Content/chief.png</File>
+    <File>C:/Users/Heidy/Documents/GitHub/projet-system/Livrables Finaux/RestaurantG5/Content/client1.png</File>
+    <File>C:/Users/Heidy/Documents/GitHub/projet-system/Livrables Finaux/RestaurantG5/Content/client2.png</File>
+    <File>C:/Users/Heidy/Documents/GitHub/projet-system/Livrables Finaux/RestaurantG5/Content/client3.png</File>
+    <File>C:/Users/Heidy/Documents/GitHub/projet-system/Livrables Finaux/RestaurantG5/Content/client4.png</File>
+    <File>C:/Users/Heidy/Documents/GitHub/projet-system/Livrables Finaux/RestaurantG5/Content/commis.png</File>
+    <File>C:/Users/Heidy/Documents/GitHub/projet-system/Livrables Finaux/RestaurantG5/Content/font.png</File>
+    <File>C:/Users/Heidy/Documents/GitHub/projet-system/Livrables Finaux/RestaurantG5/Content/groupe3.png</File>
+    <File>C:/Users/Heidy/Documents/GitHub/projet-system/Livrables Finaux/RestaurantG5/Content/groupe4.png</File>
+    <File>C:/Users/Heidy/Documents/GitHub/projet-system/Livrables Finaux/RestaurantG5/Content/groupe7.png</File>
+    <File>C:/Users/Heidy/Documents/GitHub/projet-system/Livrables Finaux/RestaurantG5/Content/groupe9.png</File>
+    <File>C:/Users/Heidy/Documents/GitHub/projet-system/Livrables Finaux/RestaurantG5/Content/restoV2.png</File>
+    <File>C:/Users/Heidy/Documents/GitHub/projet-system/Livrables Finaux/RestaurantG5/Content/serveur.png</File>
+    <File>C:/Users/Heidy/Documents/GitHub/projet-system/Livrables Finaux/RestaurantG5/Content/Timer.spritefont</File>
+    <File>C:/Users/Heidy/Documents/GitHub/projet-system/Livrables Finaux/RestaurantG5/Content/infos.spritefont</File>
+    <File>C:/Users/Heidy/Documents/GitHub/projet-system/Livrables Finaux/RestaurantG5/Content/pause.png</File>
+    <File>C:/Users/Heidy/Documents/GitHub/projet-system/Livrables Finaux/RestaurantG5/Content/playX1.png</File>
+    <File>C:/Users/Heidy/Documents/GitHub/projet-system/Livrables Finaux/RestaurantG5/Content/playX16.png</File>
+    <File>C:/Users/Heidy/Documents/GitHub/projet-system/Livrables Finaux/RestaurantG5/Content/perso5.png</File>
+    <File>C:/Users/Heidy/Documents/GitHub/projet-system/Livrables Finaux/RestaurantG5/Content/perso6.png</File>
+    <File>C:/Users/Heidy/Documents/GitHub/projet-system/Livrables Finaux/RestaurantG5/Content/perso8.png</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />

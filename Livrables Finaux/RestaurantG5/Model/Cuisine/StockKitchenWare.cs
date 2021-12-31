@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Threading;
+using RestaurantG5.Model.Salle.Components;
 
 namespace RestaurantG5.Model.Cuisine
 {

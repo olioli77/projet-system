@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/Heidy/source/repos/projet-system/RestaurantG5/Content/perso8.png</SourceFile>
+  <SourceFile>C:/Users/Heidy/Documents/GitHub/projet-system/Livrables Finaux/RestaurantG5/Content/perso8.png</SourceFile>
   <SourceTime>2021-12-27T11:06:29.5863359+01:00</SourceTime>
-  <DestFile>C:/Users/Heidy/source/repos/projet-system/RestaurantG5/Content/bin/DesktopGL/Content/perso8.xnb</DestFile>
-  <DestTime>2021-12-28T14:18:18.8161414+01:00</DestTime>
+  <DestFile>C:/Users/Heidy/Documents/GitHub/projet-system/Livrables Finaux/RestaurantG5/Content/bin/DesktopGL/Content/perso8.xnb</DestFile>
+  <DestTime>2021-12-31T15:05:35.4519366+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2020-08-10T18:17:54+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

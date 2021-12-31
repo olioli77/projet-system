@@ -48,7 +48,7 @@ namespace RestaurantG5.Controller
         public static List<int> GetSteps(string rawSteps)
         {
             List<int> steps = new List<int>();
-            string[] separatedRawSteps = rawSteps.Split(';');
+            string[] separatedRawSteps = rawSteps.Split(";");
             foreach (var step in separatedRawSteps)
             {
                 steps.Add(int.Parse(step));

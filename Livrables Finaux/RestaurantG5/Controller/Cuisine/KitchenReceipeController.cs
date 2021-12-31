@@ -3,10 +3,11 @@ using System;
 using System.Linq;
 using System.Text.RegularExpressions;
 using System.Threading;
+using RestaurantG5.Model.Salle.Components;
 
 namespace RestaurantG5.Controller.Cuisine
 {
-    public class KitchenReceipeController
+    public static class KitchenReceipeController
     {
         //Init the semahpore who represent cookers (2)
         public static Semaphore _cooker = new Semaphore(2, 2);
@@ -72,39 +73,41 @@ namespace RestaurantG5.Controller.Cuisine
 
         }
 
-        ////This method verify if all ustensiles used in the receipe are free
-        //public static bool VerifyDispoTool(Recette receipe)
-        //{
-        //    KitchenToolsController kitchenToolsController = new KitchenToolsController();
+        //This method verify if all ustensiles used in the receipe are free
+        //Comment
+        public static bool VerifyDispoTool(Recette receipe)
+        {
+            KitchenToolsController kitchenToolsController = new KitchenToolsController();
 
-        //    string[] steps = Regex.Split(receipe.liste_etapes_recette, ";");
-        //    foreach (var step in steps)
-        //    {
-        //        int actualStepID = Convert.ToInt32(step);
+            string[] steps = Regex.Split(receipe.liste_etapes_recette, ";");
+            foreach (var step in steps)
+            {
+                int actualStepID = Convert.ToInt32(step);
 
-        //        try
-        //        {
-        //            composé actualCompose = BDDController.Instance.DB.composé.SingleOrDefault(r => r.id_compose == actualStepID);
-        //            Etape actualStep = BDDController.Instance.DB.Etape.SingleOrDefault(r => r.id_etape == actualCompose.id_etape);
-        //            Ustensile actualStepTool = BDDController.Instance.DB.Ustensile.SingleOrDefault(r => r.id_Ustensile == actualStep.id_Ustensile);
-        //            string toolName = actualStepTool.nom_ust_Ustensile;
+                try
+                {
+                    compose actualCompose = BDDController.Instance.DB.compose.SingleOrDefault(r => r.id_compose == actualStepID);
+                    Etape actualStep = BDDController.Instance.DB.Etape.SingleOrDefault(r => r.id_etape == actualCompose.id_etape);
+                    Ustensile actualStepTool = BDDController.Instance.DB.Ustensile.SingleOrDefault(r => r.id_Ustensile == actualStep.id_Ustensile);
+                    string toolName = actualStepTool.nom_ust_Ustensile;
 
-        //            if (kitchenToolsController.VerifyStock(toolName, 1))
-        //            {
+                    if (kitchenToolsController.VerifyStock(toolName, 1))
+                    {
 
-        //            }
-        //            else
-        //            {
-        //                return false;
-        //            }
-        //        }
-        //        catch
-        //        {
-        //            return false;
-        //        }
+                    }
+                    else
+                    {
+                        return false;
+                    }
+                }
+                catch
+                {
+                    return false;
+                }
 
-        //    }
-        //    return true;
-        //}
+             }
+           return true;
+        }
+        //End
     }
 }

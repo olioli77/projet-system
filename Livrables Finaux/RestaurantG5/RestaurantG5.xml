@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RestaurantG5</name>
+    </assembly>
+    <members>
+        <member name="M:RestaurantG5.Controller.LoggerController.AppendLineToFile(System.String,System.String)">
+            <summary>
+            Append a Line to a specific text file.
+            </summary>
+            <param name="path">
+            Full path to the logging text file.
+            </param>
+            <param name="line">
+            The content to write in the text file
+            as a single line.
+            </param>
+            <remarks>
+            Method executed in an asynchronous way.
+            </remarks>
+        </member>
+        <member name="M:RestaurantG5.Controller.LoggerController.ReadFirstLineFromFile(System.String)">
+            <summary>
+            Read the first line of a log text file.
+            </summary>
+            <param name="path">
+            Full path to the logging text file.
+            </param>
+            <remarks>
+            Method executed in an asynchronous way.
+            </remarks>
+        </member>
+        <member name="M:RestaurantG5.Controller.LoggerController.ReadLastLineFromFile(System.String)">
+            <summary>
+            Read the last line of a log text file.
+            </summary>
+            <param name="path">
+            Full path to the logging text file.
+            </param>
+            <remarks>
+            Method executed in an asynchronous way.
+            </remarks>
+        </member>
+        <member name="M:RestaurantG5.Controller.LoggerController.ReadAllLinesFromFile(System.String)">
+            <summary>
+            Read all the lines of a log text file, store them in a list and return it.
+            </summary>
+            <param name="path">
+            Full path to the logging text file.
+            </param>
+            <remarks>
+            Method executed in an asynchronous way.
+            </remarks>
+        </member>
+        <member name="M:RestaurantG5.Controller.LoggerController.CopyLogFile(System.String,System.String)">
+            <summary>
+            Copy the log file to the given path.
+            </summary>
+            <param name="logPath">
+            Path to the log file.
+            </param>
+            <param name="copyPath">
+            Path to the new log file.
+            </param>
+        </member>
+        <member name="T:RestaurantG5.Properties.Resources">
+            <summary>
+              Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées.
+            </summary>
+        </member>
+        <member name="P:RestaurantG5.Properties.Resources.ResourceManager">
+            <summary>
+              Retourne l'instance ResourceManager mise en cache utilisée par cette classe.
+            </summary>
+        </member>
+        <member name="P:RestaurantG5.Properties.Resources.Culture">
+            <summary>
+              Remplace la propriété CurrentUICulture du thread actuel pour toutes
+              les recherches de ressources à l'aide de cette classe de ressource fortement typée.
+            </summary>
+        </member>
+    </members>
+</doc>

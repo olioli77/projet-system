@@ -13,7 +13,7 @@ namespace RestaurantG5.Model.Common
 
         public TimeSpan? date_expire_Ingredient { get; set; }
 
-        public long? quantité_Stock { get; set; }
+        public long? quantite_stock { get; set; }
 
         public long? id_Ingredient { get; set; }
 

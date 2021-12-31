@@ -12,8 +12,9 @@ using System;
 using System.Reflection;
 
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("9548319d-bb7a-4759-adff-50505a7e95f4")]
-[assembly: System.Reflection.AssemblyCompanyAttribute("RestaurantG5")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Ucac-Icam")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyCopyrightAttribute("2021")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("RestaurantG5")]
